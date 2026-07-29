@@ -43,7 +43,6 @@ Each problem set has a live MATLAB notebook (`.mlx`) with code, output and comme
 |---|---|---|
 | 1 | `direct-pi` — Monte Carlo estimate of π/4; histogram of estimates against the Bernoulli variance θ(1−θ) | [`PS1/PS1.mlx`](PS1/PS1.mlx) |
 | 2 | `walker` — alias-table construction and O(1) sampling from {p₁,…,p_K} | [`PS1/PS1.mlx`](PS1/PS1.mlx) |
-| 3 *(optional)* | `direct-gamma` with γ = −0.75; empirical CDF, Glivenko–Cantelli, Dvoretzky–Kiefer–Wolfowitz bound | [`PS1/PS1.mlx`](PS1/PS1.mlx) |
 
 ### PS2 — Markov chains and balance conditions
 | Question | Algorithm | File |
