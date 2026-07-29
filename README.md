@@ -1,16 +1,14 @@
 # Algorithms and Computations in Physics — MATLAB Solutions
 
-Worked solutions to the problem sheets of *Algorithms and Computations in Physics* (Ylias Sadki & Werner Krauth, University of Oxford, 2025), following W. Krauth, **Statistical Mechanics: Algorithms and Computations** (OUP, 2006; 2nd ed. 2024).
+Worked solutions to the problem sheets of *Algorithms and Computations in Physics* (Ylias Sadki & Werner Krauth, University of Oxford, 2025).
 
 The sheets set the exercises in Python; everything here is implemented from scratch in **MATLAB**.
-
-**Topics:** direct and Markov-chain sampling · Walker's alias method · Metropolis–Hastings · lifted and event-driven (zig-zag) chains · detailed vs. global balance · event-driven molecular dynamics · hard disks and spheres · Hamiltonian Monte Carlo · Lévy construction · matrix squaring and path-integral Monte Carlo · permutation sampling and Bose–Einstein condensation.
 
 ---
 
 ## Repository layout
 
-Each problem set has a live MATLAB notebook (`.mlx`) with code, output and commentary, plus a `.pdf` export so the work can be read without MATLAB. [`Questions.pdf`](Questions.pdf) contains every question, all four sheets.
+Each problem set has a live MATLAB notebook (`.mlx`) with code, output and commentary, plus a `.pdf` export so the work can be read without MATLAB. [`Questions.pdf`](Questions.pdf) contains every question in all four sheets.
 
 ```
 .
@@ -70,10 +68,6 @@ Each problem set has a live MATLAB notebook (`.mlx`) with code, output and comme
 
 ## Running the code
 
-Open any `.mlx` in MATLAB (R2020b or later; base MATLAB only, no toolboxes required) and run the whole notebook. Each is self-contained — no shared setup file or path configuration. Run times are seconds to a couple of minutes; the boson and hard-disk sweeps are the slowest.
+Open any `.mlx` in MATLAB (R2020b or later; base MATLAB only, no toolboxes required) and run the whole notebook.
 
 To read the results without MATLAB, open the corresponding `.pdf`.
-
-## Reference
-
-W. Krauth, *Statistical Mechanics: Algorithms and Computations*, Oxford University Press (2006; 2nd ed. 2024). Course materials and the original Python reference implementations are on Werner Krauth's website.
